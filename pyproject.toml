@@ -11,7 +11,11 @@ readme = "README.md"
 packages = [{include = "three_d_ml"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.10, <3.14"
+open3d = "^0.19.0"
+hloc = {git = "https://github.com/cvg/Hierarchical-Localization.git"}
+torch = "^2.8.0"
+torchvision = "^0.23.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
