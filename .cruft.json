@@ -1,0 +1,27 @@
+{
+  "template": "https://github.com/tchauffi/python-project-template.git",
+  "commit": "677197106e398615c778e92c5310c0c53c3c6641",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "three-d-ml-xps",
+      "project_slug": "three-d-ml",
+      "package_name": "three_d_ml",
+      "project_description": "This project contains experiments about 3D machine learning such as Neural SDF of nerf...",
+      "author_name": "Thibaut CHAUFFIER",
+      "author_email": "tchauffi@gmail.com",
+      "github_username": "tchauffi",
+      "version": "0.1.0",
+      "python_version": "3.12",
+      "min_python_version": "3.10",
+      "use_github_actions": "n",
+      "use_pre_commit": "y",
+      "license": "None",
+      "use_docker": "y",
+      "include_notebooks": "y",
+      "_template": "https://github.com/tchauffi/python-project-template.git",
+      "_commit": "677197106e398615c778e92c5310c0c53c3c6641"
+    }
+  },
+  "directory": null
+}
